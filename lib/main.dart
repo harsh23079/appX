@@ -3,6 +3,10 @@ import 'package:provider/provider.dart';
 import 'providers/counter_provider.dart';
 import 'providers/product_provider.dart';
 import 'pages/home_page.dart';
+import 'pages/main_page.dart';
+//import 'pages/product_page.dart';
+//import 'pages/categories_page.dart';
+//import 'pages/user_info_page.dart';
 
 void main() {
   runApp(
@@ -44,7 +48,8 @@ class MyApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 226, 12, 48),
         ),
       ),
-      home: const HomePage(title: 'Flutter Demo Home Page'),
+      // home: const HomePage(title: 'Flutter Demo Home Page'),
+      home: const MainPage(),
     );
   }
 }
